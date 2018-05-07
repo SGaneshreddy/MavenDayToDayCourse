@@ -10,3 +10,5 @@ Maven - Day1 - topics need to be covered
 	4. Maven project setup?
 
 	5. Different types of java projects?
+	
+	6. How to practice the covered topics in Day-1.
