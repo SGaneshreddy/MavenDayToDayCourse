@@ -3,7 +3,7 @@ Maven - Day1 - topics need to be covered
 
 	1. What is maven?
 
-	2. Maven Setup?
+	2. Maven download & installation?
   
 	3. Major advantages of maven?
 
