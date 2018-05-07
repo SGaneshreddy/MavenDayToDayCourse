@@ -7,6 +7,10 @@ Maven - Day2 - topics need to be covered
         
         3. Repository management.
         
-        4. Build one jar project "Addition" & execute it.
+        4. Maven dependencies.
         
-        5. Build a WebApp & try to execute it.
+                4.1. Build one jar project "Addition" & execute it.
+                4.2. Build one jar project "Subtraction" & execute it.
+                4.3. Build the CalculatorApp project with & without "Addition", "Subtraction" as dependencies.
+               
+         5. How to practice the covered topics in Day-2.
