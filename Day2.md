@@ -1,7 +1,7 @@
 
 Maven - Day2 - topics need to be covered
 
-        1. lifecycle phases along with execution (should observe what is happing in each phase).
+        1. lifecycle phases along with execution (what is happing in each phase).
 
         2. Open the package after the build.
         
