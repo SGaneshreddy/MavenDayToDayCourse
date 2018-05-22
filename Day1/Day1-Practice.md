@@ -2,6 +2,8 @@
 
 ## Step-1: Install jdk1.8
 
+	Download from: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+	
 	jdk - java development kit - code compilation
 
 	jre - java runtime environment - to run the java applications
@@ -12,6 +14,8 @@
 
 ## Step-2: Download maven & setup the path.
 
+	Doownload from: https://maven.apache.org/download.cgi
+	
 	mvn -version or mvn --version or mvn -v --> check whtehr maven setup done or not.
 
 	What is maven? --> Maven is an automated build tool.
