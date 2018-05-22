@@ -1,6 +1,8 @@
 # Maven Practice
 
 ## Step-1: Install jdk1.8
+	
+	Refer: Java_Maven_Setup.docx which available under Day1 folder.
 
 	Download from: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 	
@@ -8,13 +10,17 @@
 
 	jre - java runtime environment - to run the java applications
 
-	Setup the jdk path in system varialbles. And Create JAVA_HOME variable in system variables.
+	Setup the jdk path under system/user varialbles. And Create JAVA_HOME variable in system variables.
 
 	java -version --> check whtehr java setup done or not.
 
 ## Step-2: Download maven & setup the path.
 
+	Refer: Java_Maven_Setup.docx which available under Day1 folder.
+	
 	Doownload from: https://maven.apache.org/download.cgi
+	
+	Setup the maven bin path under system/user variables.
 	
 	mvn -version or mvn --version or mvn -v --> check whtehr maven setup done or not.
 
