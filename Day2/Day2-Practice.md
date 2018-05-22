@@ -9,5 +9,8 @@
       verify: run any checks to verify the package is valid and meets quality criteria
       install: install the package into the local repository, for use as a dependency in other projects locally.
       deploy: Copies the final package to the remote repository for sharing with other developers and projects.
-      
+
+## Dependencies:
+
+      Practice with https://github.com/CalculatorApps
       
