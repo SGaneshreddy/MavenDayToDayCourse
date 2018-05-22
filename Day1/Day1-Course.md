@@ -4,28 +4,26 @@ Maven - Day1 - topics need to be covered
         1. What is maven?
 
         2. Maven download & installation?
+        
+                Refer: https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
         3. Major advantages of maven?
 
-        4. Different types of java projects?
-
-                4.1. Project Management tool. (auto generate the file/folder structure).
-                
-                                mvn archetype:generate -DgroupId=com.mycompany.app -DarchetypeArtifactId=maven-archetype-quickstart -DartifactId=my-app -DinteractiveMode=false
+                3.1. Project Management tool. (auto generate the file/folder structure).
                                 
                      Different types of projects in JAVA: 
                      
-| Project Type | Purpose | Package type | Files to be packages |
-| --- | --- | --- | --- |
-| Executable JARs | we can execute these application whenre Java is installed. | jar | .class, .proeprties etc |
-| Utility JARs | Reusable application. We can use the JARs in another project. | jar | .class, .proeprties etc |
-| Web Applications | Web projects which we can run on any application servers. | war | .class, .proeprties + .html, .jsp, .xml + .jar etc |
-| Enterprise Applications | these projects which we can run on any application servers. | ear | jar(s) + ear(s) etc |
+| Project Type | Purpose | Package type | Files to be packaged | maven archetype | 
+| --- | --- | --- | --- | --- |
+| Executable JARs | we can execute these application whenre Java is installed. | jar | .class, .proeprties etc | maven-archetype-quickstart |
+| Utility JARs | Reusable application. We can use the JARs in another project. | jar | .class, .proeprties etc | maven-archetype-quickstart |
+| Web Applications | Web projects which we can run on any application servers. | war | .class, .proeprties + .html, .jsp, .xml + .jar etc | maven-archetype-webapp |
+| Enterprise Applications | these projects which we can run on any application servers. | ear | jar(s) + ear(s) etc | maven-archetype-j2ee-simple |
   
                         
-                4.2. Automated Build tool. - lifecycle phases
+                3.2. Automated Build tool. - lifecycle phases
                 
-                4.3. Managing repositories.
+                3.3. Managing repositories.
                 
                         4.3.1. Local repo.
                         4.3.2. Central repo.
