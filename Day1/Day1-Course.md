@@ -11,7 +11,16 @@ Maven - Day1 - topics need to be covered
 
                 4.1. Project Management tool. (auto generate the file/folder structure).
                 
-                        mvn archetype:generate -DgroupId=com.mycompany.app -DarchetypeArtifactId=maven-archetype-quickstart -DartifactId=my-app -DinteractiveMode=false
+                                mvn archetype:generate -DgroupId=com.mycompany.app -DarchetypeArtifactId=maven-archetype-quickstart -DartifactId=my-app -DinteractiveMode=false
+                                
+                     Different types of projects in JAVA: 
+                     
+                        | Project Type | Purpose | Package type | Files to be packages |
+                        | --- | --- | --- | --- |
+                        | Executable JARs | we can execute these application whenre Java is installed. | jar | .class, .proeprties etc |
+                        | Utility JARs | Reusable application. We can use the JARs in another project. | jar | .class, .proeprties etc |
+                        | Web Applications | Web projects which we can run on any application servers. | war | .class, .proeprties + .html, .jsp, .xml + .jar etc |
+                        | Enterprise Applications | these projects which we can run on any application servers. | ear | jar(s) + ear(s) etc |
                         
                 4.2. Automated Build tool. - lifecycle phases
                 
