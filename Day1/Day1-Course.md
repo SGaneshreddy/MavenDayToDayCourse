@@ -16,7 +16,7 @@ Maven - Day1 - topics need to be covered
 | Project Type | Purpose | Package type | Files to be packaged | maven archetype | 
 | --- | --- | --- | --- | --- |
 | Executable JARs | we can execute these application whenre Java is installed. | jar | .class, .proeprties etc | maven-archetype-quickstart |
-| Utility JARs | Reusable application. We can use the JARs in another project. | jar | .class, .proeprties etc | maven-archetype-quickstart |
+| Utility JARs | Reusable applications. We can use these JARs in another project. | jar | .class, .proeprties etc | maven-archetype-quickstart |
 | Web Applications | Web projects which we can run on any application servers. | war | .class, .proeprties + .html, .jsp, .xml + .jar etc | maven-archetype-webapp |
 | Enterprise Applications | these projects which we can run on any application servers. | ear | jar(s) + ear(s) etc | maven-archetype-j2ee-simple |
   
