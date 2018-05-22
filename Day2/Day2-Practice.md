@@ -1,6 +1,6 @@
 # Day2 Practice
 
-## Execute the maven goals one by one and see what exactly it is running.
+## 1. Execute the maven goals one by one and see what exactly it is running.
 
       validate: Validating the project.
       compile : Load the original source code from src/main/java and compiling it.
@@ -10,7 +10,7 @@
       install: install the package into the local repository, for use as a dependency in other projects locally.
       deploy: Copies the final package to the remote repository for sharing with other developers and projects.
 
-## Dependencies:
+## 2. Dependencies:
 
       Practice with https://github.com/CalculatorApps
       
