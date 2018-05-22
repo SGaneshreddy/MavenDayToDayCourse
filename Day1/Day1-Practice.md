@@ -41,7 +41,9 @@
 
 		ZIP - anything or properties
 
-	JAR Project Setup: mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+## Step-3: JAR Project Setup: 
+          
+	   mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 					1. maven(the above command) will create a folder structure for java project.
 						two sections
@@ -56,9 +58,9 @@
 			2.2. src/test/java - for junit files i.e., *Test.java ex: AddTest.java
 		3. what is groupId, artifactId, version, package in pom.xml file. etc.
 				
-## Step-3: Syntax to generate maven project: mvn archetype:generate -DgroupId=<your project groupid> -DartifactId=<project Name> -Dversion=<project version> -DarchetypeArtifactId=maven-archetype-quickstart
+        Syntax to generate maven project: mvn archetype:generate -DgroupId=<your project groupid> -DartifactId=<project Name> -Dversion=<project version> -DarchetypeArtifactId=maven-archetype-quickstart
 
-	Run the build: mvn clean package
+## Step-4: Run the build: mvn clean package
 
 	Observe the build console:
 
@@ -66,7 +68,7 @@
 		2. whar are the minium required tags/elements in pom.xml file. (comment & un-comment some of the tags groupId, artifactId, version, package in pom.xml & then try the build)
 		3. What are the maven goals are running? & what is happening for each goal like cleaning taregt folder, creating taregt folder, resource loading, compile, test compile etc
 
-## Step-4: Generate the other project structures & types
+## Step-5: Generate the other project structures & types
 
 	WAR Project Setup: mvn archetype:generate -DgroupId=com.doha.web.login -DartifactId=LoginApp -DarchetypeArtifactId=maven-archetype-webapp
 	EAR Project Setup: mvn archetype:generate -DgroupId=com.doha.web.login -DartifactId=LoginAppEAR -DarchetypeArtifactId=maven-archetype-j2ee-simple
