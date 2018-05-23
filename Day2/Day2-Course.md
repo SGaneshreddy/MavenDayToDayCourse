@@ -12,11 +12,11 @@ Maven - Day2 - topics need to be covered
                 
                 4.1. Build one jar project "Addition" & execute it. 
                         mvn goals: mvn package
-                        Run the package: java -jar <projectName>.jar
+                        Run the package: java -jar target/<packageName>.jar
                 4.2. Build one jar project "Subtraction" & execute it. 
                         mvn goals: mvn package
-                        Run the package: java -jar <projectName>.jar
+                        Run the package: java -jar target/<packageName>.jar
                 4.3. Build the CalculatorApp project with & without "Addition", "Subtraction" as dependencies.  
                         mvn goals: mvn package
-                        Run the package: java -jar <projectName>.jar        
+                        Run the package: java -jar target/<packageName>.jar        
     
