@@ -8,7 +8,15 @@ Maven - Day2 - topics need to be covered
         
         4. Maven dependencies.
         
-                4.1. Build one jar project "Addition" & execute it.
-                4.2. Build one jar project "Subtraction" & execute it.
-                4.3. Build the CalculatorApp project with & without "Addition", "Subtraction" as dependencies.         
+                refer maven projects: https://github.com/CalculatorApps
+                
+                4.1. Build one jar project "Addition" & execute it. 
+                        mvn goals: mvn package
+                        Run the package: java -jar <projectName>.jar
+                4.2. Build one jar project "Subtraction" & execute it. 
+                        mvn goals: mvn package
+                        Run the package: java -jar <projectName>.jar
+                4.3. Build the CalculatorApp project with & without "Addition", "Subtraction" as dependencies.  
+                        mvn goals: mvn package
+                        Run the package: java -jar <projectName>.jar        
     
