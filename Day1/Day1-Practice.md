@@ -28,24 +28,26 @@
 
 	maven will
 		1. compile the code, 
-		2. test the original code (i.e., running junit tests)
-		3. package the compiled code (jar, war, ear, zip etc)
-		4. deploy the package to remote server (tomcat/jboss application server, nexus/artifactory package manager)
-		5. code coverage & quality check etc.
+		2. test the original code (i.e., compile & runn the junit tests)
+		3. package the compiled code (.jar, .war, .ear, .zip etc)
+		4. deploy the package to remote server (tomcat/jboss application server, nexus/artifactory package/repo manager)
+		5. code coverage & quality check etc (with the help of thrid party plugin checkstyle, jacoco, sonar etc.
+		
+		etc
 
 	Why maven is automated build tool? -- maven has standard lifecycle pahses. --> https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 	Different types of packages in java:
 
-		WAR, EAR, ect
+		JAR, WAR, EAR, ect
 
-		JAR - single utility project.  .class + .properties
+		JAR - Java ARchive - simple utility project.  .class + .properties
 
-		WAR - lot of JARs + html,jsp,js, htm, etc + .properties + etc
+		WAR - Web Application Resource or Web application ARchive - lot of JARs + html,jsp,js, htm, etc + .properties + etc
 
-		EAR - JARs+ WARs  OR JARs+ WARs + ESB etc
+		EAR - enterprise archive - JARs+ WARs  OR JARs+ WARs + ESB etc
 
-		ZIP - anything or properties
+		ZIP - Zipping any files like xml or properties etc
 
 ## Step-3: JAR Project Setup: 
           
@@ -64,7 +66,7 @@
 			2.2. src/test/java - for junit files i.e., *Test.java ex: AddTest.java
 		3. what is groupId, artifactId, version, package in pom.xml file. etc.
 				
-        Syntax to generate maven project: mvn archetype:generate -DgroupId=<your project groupid> -DartifactId=<project Name> -Dversion=<project version> -DarchetypeArtifactId=maven-archetype-quickstart
+        Syntax to generate maven project for JAR: mvn archetype:generate -DgroupId=<your project groupid> -DartifactId=<project Name> -Dversion=<project version> -DarchetypeArtifactId=maven-archetype-quickstart
 
 ## Step-4: Run the build: mvn clean package
 
@@ -79,7 +81,7 @@
 	WAR Project Setup: mvn archetype:generate -DgroupId=com.doha.web.login -DartifactId=LoginApp -DarchetypeArtifactId=maven-archetype-webapp
 	EAR Project Setup: mvn archetype:generate -DgroupId=com.doha.web.login -DartifactId=LoginAppEAR -DarchetypeArtifactId=maven-archetype-j2ee-simple
 
-	Observe the web project file/folder strructure what are the default files/folder are creatd.
+	Observe the web project file/folder strructure what are the default files/folder are created by the maven archetype.
 
 	Just run the command: mvn archetype:generate > archetypes-log.txt --> once it is done open the file archetypes-log.txt and see how many archetypes providing by maven.
 
