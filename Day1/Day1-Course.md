@@ -27,10 +27,10 @@ Maven - Day1 - Course
           
 Different types of projects/packages in JAVA:
 
-| Project Type | Purpose | Package type | Files to be packaged | maven archetype | 
-| --- | --- | --- | --- | --- |
-| Executable JARs | we can execute these application whenre Java is installed. | jar | .class, .proeprties etc | maven-archetype-quickstart |
-| Utility JARs | Reusable applications. We can use these JARs in another project. | jar | .class, .proeprties etc | maven-archetype-quickstart |
-| Web Applications | Web projects which we can run on any application servers. | war | .class, .proeprties + .html, .jsp, .xml + .jar etc | maven-archetype-webapp |
-| Enterprise Applications | these projects which we can run on any application servers. | ear | jar(s) + ear(s) etc | maven-archetype-j2ee-simple |
+| Project Type | Purpose | Package type | Files to be packaged | maven archetype | Where can excecute? |
+| --- | --- | --- | --- | --- | --- |
+| Executable JARs | we can execute these application whenre Java is installed. | jar | .class, .proeprties etc | maven-archetype-quickstart | Can execute on java installed machine |
+| Utility JARs | Reusable applications. We can use these JARs in another project. | jar | .class, .proeprties etc | maven-archetype-quickstart | Can't execute, just reuse the classes in another application |
+| Web Applications | Web projects which we can run on any application servers. | war | .class, .proeprties + .html, .jsp, .xml + .jar etc | maven-archetype-webapp | Can be executed only on Application servers i.e., Tomcat, jboss, weblogic etc |
+| Enterprise Applications | these projects which we can run on any application servers. | ear | jar(s) + ear(s) etc | maven-archetype-j2ee-simple | Can be executed only on Application servers i.e., jboss, weblogic, WAS etc |
   
