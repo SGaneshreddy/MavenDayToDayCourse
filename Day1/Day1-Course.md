@@ -32,5 +32,5 @@ Different types of projects/packages in JAVA:
 | Executable JARs | we can execute these application whenre Java is installed. | jar | .class, .proeprties etc | maven-archetype-quickstart | Can execute on java installed machine |
 | Utility JARs | Reusable applications. We can use these JARs in another project. | jar | .class, .proeprties etc | maven-archetype-quickstart | Can't execute, just reuse the login in another application |
 | Web Applications | Web projects which we can run on any application servers. | war | .class, .proeprties + .html, .jsp, .xml + .jar etc | maven-archetype-webapp | Can be executed only on Application servers i.e., Tomcat, jboss, weblogic etc |
-| Enterprise Applications | these projects which we can run on any application servers. | ear | jar(s) + ear(s) etc | maven-archetype-j2ee-simple | Can be executed only on Application servers i.e., jboss, weblogic, WAS etc |
+| Enterprise Applications | these projects which we can run on any application servers. | ear | jar(s) + war(s) etc | maven-archetype-j2ee-simple | Can be executed only on Application servers i.e., jboss, weblogic, WAS etc |
   
