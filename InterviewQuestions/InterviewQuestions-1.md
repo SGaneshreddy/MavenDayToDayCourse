@@ -6,6 +6,9 @@
   5. Maven life cycle phases?
   6. What is plugin?
   7. Maven dependency traverse? i.e., how maven download a dependency?
+          
+          Download Maven, extract the archive, add the /bin folder to path. All jar-files are downloaded to /target/dependency . Add jars to java project by build path -> configure build path -> libraries -> add JARs.. Please check if you have some config files in ${MAVEN_HOME}/conf directory like settings.xml .
+  
   8. How to configure a dependency?
   9. Exclude a dependency?
   10. Command to update the poms with new versions? i.e., mvn versions:set -DnewVersion=2.0.0-SNAPSHOT -DgenerateBackupPoms=false.
